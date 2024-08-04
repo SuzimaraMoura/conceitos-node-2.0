@@ -1,0 +1,28 @@
+{
+  "name": "conceitos-node",
+  "version": "1.0.0",
+  "description": "Esse projeto é um conceito básico para entender o node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuzimaraMoura/conceitos-node-2.0.git"
+  },
+  "author": "\"Suzimara Moura\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuzimaraMoura/conceitos-node-2.0/issues"
+  },
+  "homepage": "https://github.com/SuzimaraMoura/conceitos-node-2.0#readme",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  }
+}
